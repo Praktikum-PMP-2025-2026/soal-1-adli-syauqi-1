@@ -13,7 +13,7 @@
  void fungsi(int *array, int N, int *sum, float *avg, int *max, int *idx){
     *sum = 0;
     *avg = 0;
-    *max = 0;
+    *max = array[0];
     *idx = 0;
 
     for(int i = 0; i < N; i++){
